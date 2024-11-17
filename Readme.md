@@ -4,6 +4,8 @@
 
 Visit the live application: [Living Things Task](https://living-things-task-ochre.vercel.app/)
 
+Note:- It will take about 1 min on first start beacuse of free tier hosting.
+
 ## Technologies Used 🛠️
 
 - React.js
