@@ -1,7 +1,8 @@
 export const apiRequest = async (endpoint, options = {}) => {
   const token = localStorage.getItem("token");
+  const api = import.meta.env.VITE_API_URL;
 
-  const response = await fetch(`http://localhost:5000/api${endpoint}`, {
+  const response = await fetch(`${api}${endpoint}`, {
     headers: {
       "Content-Type": "application/json",
       ...(token && { Authorization: `Bearer ${token}` }),

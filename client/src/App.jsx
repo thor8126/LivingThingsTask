@@ -8,7 +8,6 @@ import { DashboardLayout } from "./components/layout/DashboardLayout";
 import { useEffect, useState } from "react";
 import Login from "./components/forms/Login";
 import { apiRequest } from "./api/apiRequest";
-
 const App = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
